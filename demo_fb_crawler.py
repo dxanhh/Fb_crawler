@@ -15,7 +15,7 @@ import os
 import codecs
 import json
 
-
+# https://github.dev/SkullTech/friends-scraper/blob/master/scrapefriends.py
 
 
 # INITIALIZE
