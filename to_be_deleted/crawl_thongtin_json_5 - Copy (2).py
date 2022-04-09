@@ -1,33 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Dec 17 11:15:18 2021
-
-@author: Admin
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Dec 17 08:33:00 2021
-
-@author: Admin
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Dec 16 11:01:43 2021
-
-@author: Admin
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Dec 15 13:19:21 2021
-
-@author: Admin
-"""
-
-
-
 from time import sleep
 from selenium import webdriver
 # from webdriver_manager.chrome import ChromeDriverManager
