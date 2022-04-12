@@ -119,6 +119,7 @@ class FacebookCrawler(BaseClass):
         except BaseException as e:
             self.log.error("failed", e)
             self.log.info(f"Pushing failed item with id: {uid} to database....")
+
             try:
                 push_one_uid(uid)
                 self.log.info("Successfully inserted failed data")
