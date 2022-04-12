@@ -87,6 +87,7 @@ class ProfileExtractor(BaseClass):
     def extract(self) -> dict:
         self.data['name'] = self.process_data('name')
         self.data['placelive'] = self.process_data('placelive')
+        self.data['education'] = self.process_data('education')
         self.data['basic_info'] = self.process_data('basic_info')
         self.data['nicknames'] = self.process_data('nicknames')
         self.data['relationship'] = self.process_data('relationship')
