@@ -84,7 +84,7 @@ for loop in range(0, 1000):
         rows = table.find_elements_by_tag_name('div')
 
         account = randint(0, len(list_tk_clone)-1)
-        account = 3
+        # account = 3
 
         for a in rows:
             tendangnhap = a.find_element_by_id('email')
